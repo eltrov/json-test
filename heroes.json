@@ -1,5 +1,6 @@
 {"heroes":[
   {
+    "icon" : "Addis.png",
     "name" : "Addis",
     "baseRank" : 4,
     "element" : "Wind",
@@ -8,6 +9,7 @@
     "Dignified Soul"
   ]},
   {
+    "icon" : "Aeleen.png",
     "name" : "Aeleen",
     "baseRank" : 4,
     "element" : "Wind",
@@ -16,6 +18,7 @@
     "Valhallan Ballad"
   ]},
   {
+    "icon" : "Akasha.png",
     "name" : "Akasha",
     "baseRank" : 5,
     "element" : "Wind",
