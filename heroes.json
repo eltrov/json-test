@@ -1,0 +1,26 @@
+{"heroes":[
+  {
+    "name" : "Addis",
+    "baseRank" : 4,
+    "element" : "Wind",
+    "skillNames" : [
+    "Bamboo Cutter",
+    "Dignified Soul"
+  ]},
+  {
+    "name" : "Aeleen",
+    "baseRank" : 4,
+    "element" : "Wind",
+    "skillNames" : [
+    "Valkyrie Blast",
+    "Valhallan Ballad"
+  ]},
+  {
+    "name" : "Akasha",
+    "baseRank" : 5,
+    "element" : "Wind",
+    "skillNames" : [
+    "Akashic Repose",
+    "Vital Gate"
+  ]}
+]}
