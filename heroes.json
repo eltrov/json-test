@@ -9,7 +9,7 @@
     "Dignified Soul"
   ]},
   {
-    "icon" : "Aeleen.png",
+    "icon" : "https://gamepedia.cursecdn.com/dragalialost_gamepedia_en/9/99/110029_01_r04.png",
     "name" : "Aeleen",
     "baseRank" : 4,
     "element" : "Wind",
@@ -18,7 +18,7 @@
     "Valhallan Ballad"
   ]},
   {
-    "icon" : "Akasha.png",
+    "icon" : "https://gamepedia.cursecdn.com/dragalialost_gamepedia_en/b/bb/110341_01_r05.png",
     "name" : "Akasha",
     "baseRank" : 5,
     "element" : "Wind",
