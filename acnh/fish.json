@@ -1678,7 +1678,7 @@
       "ID": "f076",
       "Name": "Suckerfish",
       "Location": "Sea",
-      "Size": "(Fin)",
+      "Size": "Largest (Fin)",
       "Value": "1,500",
       "HasTimeLimit":false,
       "Time1Start": "",
