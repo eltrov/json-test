@@ -6,21 +6,8 @@
       "th3": "Location",
       "th4": "Size",
       "th5": "Value",
-      "th6": "HasTimeLimit",
-      "th7": "Time1Start",
-      "th8": "Time1End",
-      "th9": "Time2Start",
-      "th10": "Time2End",
-      "th11": "Time",
-      "th12": "HasRange",
-      "th13": "MonthNH1Start",
-      "th14": "MonthNS1End",
-      "th15": "MonthNH2Start",
-      "th16": "MonthNS2End",
-      "th17": "MonthSH1Start",
-      "th18": "MonthSH1End",
-      "th19": "MonthSH2Start",
-      "th20": "MonthSH2End",
+      "th6": "HasTimeLimit	",
+      "th7": "Availability"
     }
   ],
   "fish": [
