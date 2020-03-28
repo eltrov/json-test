@@ -1,4 +1,4 @@
-let requestURL = 'https://raw.githubusercontent.com/eltrov/json-test/master/hero-full-titles.json'
+let requestURL = 'https://raw.githubusercontent.com/eltrov/json-test/master/acnh/fish.json'
 let request = new XMLHttpRequest();
 request.open('GET', requestURL);
 
@@ -57,7 +57,7 @@ function populateHeader(jsonObj) {
   }
 
 
-  const heroes = jsonObj['heroes'];
+  const heroes = jsonObj['fish'];
 
   var col2 = [];
   for (var i = 0; i < heroes.length; i++) {
@@ -76,7 +76,9 @@ function populateHeader(jsonObj) {
       tabCell.align = "center";
       if (j == 0) {
         var img = document.createElement("img");
-        img.src = heroes[i][col2[0]];
+        var src = heroes[i][col2[0]];
+        
+        img.src = "https://raw.githubusercontent.com/eltrov/json-test/master/acnh/pic/" + src + ".png"
         img.title = heroes[i][col2[1]];
         //img.width = 70;
         //img.height = 70;
