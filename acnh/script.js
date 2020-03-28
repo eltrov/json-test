@@ -46,11 +46,14 @@ function populateHeader(jsonObj) {
     tr = table.insertRow(-1);
 
     for (var j = 0; j < col.length; j++) {
-      /*if (j == 5) { }*/
-      if (j == 7) { th.colSpan = 2; }
-        var th = document.createElement("th"); // TABLE HEADER.
+      //if (j == 5) { }
+      //if (j == 6) { th.colSpan = 1; th.bgColor = "pink"; }
+
+        var th = document.createElement("th"); // TABLE HEADER.        
         th.innerHTML = hrs[i][col[j]];
-        tr.appendChild(th);
+        
+        if (j != 5) {tr.appendChild(th);}
+
       /*
       var tabCell = tr.insertCell(-1);
       tabCell.innerHTML = hrs[i][col[j]];
@@ -87,7 +90,14 @@ function populateHeader(jsonObj) {
         //this is in the css now under .icon
         img.className = "icon";
         tabCell.appendChild(img);
-      } else {
+      } 
+      else if (j == 5) {
+        var AllDay = heroes[i][col2[j]];
+        if (AllDay === true) {
+          tabCell.innerHTML = "All day";
+         }
+       }      
+        else {
         tabCell.innerHTML = heroes[i][col2[j]];
       }
 
